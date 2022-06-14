@@ -10,4 +10,6 @@ type Order struct {
 	Order_Name         string    `json:"order_name" form:"order_name"`
 	Order_Phone_Number string    `json:"order_phone_number" form:"order_phone_number"`
 	Order_address      string    `json:"order_address" form:"order_address"`
+	Created_At         time.Time `json:"created_at" form:"created_at"`
+	Updated_At         time.Time `json:"updated_at" form:"updated_at"`
 }
